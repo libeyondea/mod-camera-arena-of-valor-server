@@ -11,7 +11,7 @@
 			<Event eventName="SetCameraHeightDuration" time="0.000" length="1.250" isDuration="true">
 				<int name="slerpTick" value="200" refParamName="" useRefParam="false"/>
 				<bool name="cutBackOnExit" value="false" refParamName="" useRefParam="false"/>
-				<float name="heightRate" value="1.800" refParamName="" useRefParam="false"/>
+				<float name="heightRate" value="1.650" refParamName="" useRefParam="false"/>
 				<bool name="bOverride" value="false" refParamName="" useRefParam="false"/>
 				<bool name="leftTimeSlerpBack" value="true" refParamName="" useRefParam="false"/>
 				<bool name="exitKeepCurrentValue" value="false" refParamName="" useRefParam="false"/>
