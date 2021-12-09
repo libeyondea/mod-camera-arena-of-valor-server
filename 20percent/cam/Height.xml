@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+	<TemplateObjectList>
+		<TemplateObject objectName="self" id="0" isTemp="false"/>
+		<TemplateObject objectName="target" id="1" isTemp="false"/>
+		<TemplateObject objectName="bullet" id="2" isTemp="true"/>
+	</TemplateObjectList>
+	<RefParamList/>
+	<Action tag="" length="1.250" loop="false">
+			<Track trackName="SetCameraHeightDuration0" eventType="SetCameraHeightDuration" guid="4e706ad9-c26b-4328-b1a1-57a592c0059b" enabled="true" refParamName="" useRefParam="false" r="0.467" g="0.000" b="1.000" execOnForceStopped="false" execOnActionCompleted="false" stopAfterLastEvent="true">
+			<Event eventName="SetCameraHeightDuration" time="0.000" length="99999" isDuration="true">
+				<int name="slerpTick" value="200" refParamName="" useRefParam="false"/>
+				<bool name="cutBackOnExit" value="false" refParamName="" useRefParam="false"/>
+				<float name="heightRate" value="1.800" refParamName="" useRefParam="false"/>
+				<bool name="bOverride" value="false" refParamName="" useRefParam="false"/>
+				<bool name="leftTimeSlerpBack" value="true" refParamName="" useRefParam="false"/>
+				<bool name="exitKeepCurrentValue" value="false" refParamName="" useRefParam="false"/>
+				<bool name="isSlerpBackWhenInterrupted" value="true" refParamName="" useRefParam="false"/>
+				<int name="slerpBackTick" value="200" refParamName="" useRefParam="false"/>
+				<bool name="heightRateCanLowerThanOne" value="false" refParamName="" useRefParam="false"/>
+			</Event>
+		</Track>
+	</Action>
+</Project>
+		
